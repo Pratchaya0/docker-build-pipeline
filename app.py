@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return "GHCR pipeline test 1 is working!\n"
+    return "GHCR pipeline test 2 is working!\n"
 
 
 if __name__ == "__main__":
